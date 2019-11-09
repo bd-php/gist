@@ -20,7 +20,7 @@ ServerName localhost
 ```sh
 httpd.exe
 ```
-* Install Apache as a windows service [Run cmd as administrator]
+* Install Apache as a windows service [Run ` cmd ` as administrator]
 ```sh
 httpd.exe -k install
 ```
