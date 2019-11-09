@@ -29,3 +29,8 @@ httpd.exe -k install
 net start apache2.4
 net stop apache2.4
 ```
+* Alternatively
+```sh
+sc start apache2.4
+sc stop apache2.4
+```
