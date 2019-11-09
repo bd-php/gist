@@ -20,3 +20,12 @@ ServerName localhost
 ```sh
 httpd.exe
 ```
+* Install Apache as a windows service [Run cmd as administrator]
+```sh
+httpd.exe -k install
+```
+* Start/Stop Apache via ` cmd `
+```sh
+net start apache2.4
+net stop apache2.4
+```
