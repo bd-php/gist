@@ -12,6 +12,17 @@ LoadModule php7_module D:/Tools/php/php7apache2_4.dll
 </IfModule>
 ```
 
+OR
+```sh
+LoadModule php7_module C:/Tools/Php/php7apache2_4.dll
+
+<IfModule php7_module>
+    DirectoryIndex index.html index.php
+    AddHandler application/x-httpd-php .php
+    PHPIniDir "C:/Tools/Php"
+</IfModule>
+```
+
 * Add Server Name by adding
 ```sh
 ServerName localhost
