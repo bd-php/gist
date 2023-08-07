@@ -6,8 +6,7 @@ sudo apt install build-essential autoconf libtool bison re2c pkg-config libxml2-
 git clone https://github.com/php/php-src.git --depth=1 && \
 cd php-src && \
 ./buildconf && \
-./configure && \
+./configure --with-readline && \
 make -j4 && \
 ./sapi/cli/php -v
 ```
-
