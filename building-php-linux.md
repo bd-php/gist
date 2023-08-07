@@ -61,3 +61,7 @@ make -j4 && \
 ```
 ./configure --help
 ```
+# Install
+```
+sudo make install
+```
