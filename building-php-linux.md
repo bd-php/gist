@@ -80,6 +80,7 @@ sudo make test
 # Laravel Project with Latest PHP
 ```
 export PATH="$PATH:/opt/php/php8/bin"
+wget https://getcomposer.org/composer.phar
 php composer.phar create-project laravel/laravel appmylara
 cd appmylara
 php ../composer.phar install --ignore-platform-reqs
