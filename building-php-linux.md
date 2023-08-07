@@ -86,3 +86,7 @@ php ../composer.phar install --ignore-platform-reqs
 php artisan key:generate
 php artisan serve
 ```
+# These commands will install and update all the packages regardless of the version conflicts.
+```sh
+composer update --ignore-platform-reqs
+```
