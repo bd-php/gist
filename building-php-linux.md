@@ -1,4 +1,4 @@
-# Build PHP From Source [Linux]
+# Build PHP From Source [Linux](https://php.tutorials24x7.com/blog/how-to-install-php-8-from-source-on-ubuntu-20-04-lts)
 ```
 #!/bin/bash
 sudo apt update && \
@@ -68,4 +68,12 @@ sudo make install
 # Test Installation
 ```
 sudo make test
+```
+# Check PHP Version
+```
+/opt/php/php8/bin/php -v
+```
+# Check PHP ini Path
+```
+/opt/php/php8/bin/php --ini
 ```
