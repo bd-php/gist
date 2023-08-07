@@ -77,3 +77,11 @@ sudo make test
 ```
 /opt/php/php8/bin/php --ini
 ```
+# Php latest laravel install
+```
+export PATH="$PATH:/opt/php/php8/bin"
+php composer.phar create-project laravel/laravel appmylara
+cd appmylara
+php composer.phar install --ignore-platform-reqs
+php artisan serve
+```
