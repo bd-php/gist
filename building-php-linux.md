@@ -65,3 +65,7 @@ make -j4 && \
 ```
 sudo make install
 ```
+# Test Installation
+```
+sudo make test
+```
