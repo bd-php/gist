@@ -1,4 +1,4 @@
-### Build PHP From Source [Linux]
+# Build PHP From Source [Linux]
 ```
 #!/bin/bash
 sudo apt update && \
@@ -56,8 +56,8 @@ make -j4 && \
 ./sapi/cli/php -v
 ```
 
-## Notes
-## View all options
+# Notes
+# View all options
 ```
 ./configure --help
 ```
