@@ -91,3 +91,12 @@ php artisan serve
 ```sh
 composer update --ignore-platform-reqs
 ```
+# Routine Run
+```
+cd php-src
+git pull --rebase
+./buildconf --force
+./config.nice
+make -j $(nproc)
+sudo make install
+```
