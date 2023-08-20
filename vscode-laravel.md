@@ -6,4 +6,5 @@
 4. Set editor.fontLigatures to true
 5. Material Icon Theme
 6. GitLens
+7. PHP Intelephense
 ```
